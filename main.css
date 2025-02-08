@@ -1,0 +1,44 @@
+body{
+    height: 150px;
+    width: 200px;
+}
+.digital-clock{
+    display: block;
+    font-size: x-large;
+    text-align: center;
+    align-items: center;
+    margin-top: 25%;
+}
+.analog-clock{
+    display: none;
+}
+.header-div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.switch-div{
+    position: absolute;
+    bottom: 0px;
+}
+.stopwatch-div{
+    display: none;
+    font-size: x-large;
+    text-align: center;
+    align-items: center;
+    margin-top: 25%;
+}
+.btn-stopwatch{
+    margin-top: 10%;
+}
+.stopwatch-reset{
+    display: none;
+    margin-left: 5%;
+}
+.timer-div{
+    display: none;
+    font-size: x-large;
+    text-align: center;
+    align-items: center;
+    margin-top: 25%;
+}
